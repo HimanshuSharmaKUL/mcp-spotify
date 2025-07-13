@@ -150,7 +150,7 @@ async def spotify_lifespan(server: FastMCP) -> AsyncIterator[SpotifyContext]:
 
 
 mcp = FastMCP(
-    "mcpSpotify",
+    "mcp-spotify",
     dependencies=[
         "requests", "python-dotenv", "mcp",  # anything else you import
     ],
