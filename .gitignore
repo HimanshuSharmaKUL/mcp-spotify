@@ -1,0 +1,6 @@
+# .gitignore
+.env
+tokens.json
+__pycache__/
+*.pyc
+debug_uris.log
