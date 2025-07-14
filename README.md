@@ -32,6 +32,11 @@ REDIRECT_URI=http://localhost:8888/callback
 ```
 
 ### 3. Install `uv` if not installed
+From the [official uv installation guide](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer)
+For windows use
+```bash
+pipx install uv
+```
 
 ### 4. Install dependencies
 ```bash
